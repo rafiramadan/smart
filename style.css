@@ -1,0 +1,631 @@
+.navbar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.navbar-brand{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Inter;
+}
+.nav-link{
+    font-size: 15px;
+}
+.btnnav{
+    border-radius: 10px;
+    height: 40px;
+}
+.jumbotron{
+    min-height: 580px;
+    background-color: white;
+    transition: 0.4s;
+}
+.jumbotron h1{
+    font-weight: bold; 
+    margin-top: 20px;  
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: Rubik;
+}
+.jumbotron p{
+    font-family: Quicksand;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.btnjum{
+    border-radius: 5px;
+    height: 40px;
+    width: 170px;
+    font-family: Quicksand;
+    box-shadow: 4px 10px 18px rgba(0,0,0,.2);
+    color: #fff;
+    transform: translateY(-5px);
+    transition: 0.4s;
+}
+.imgjum{
+    margin-top: 20px;
+    transition: 0.4s;
+}
+.judul-panel h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 25px;
+}
+.poin{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.penawaran{
+    font-size: 16px;
+    text-align: center;
+    font-family: Quicksand;
+}
+.panel{
+    font-family: Quicksand;
+    /*box-shadow:  0px 0px 2px rgba(0, 0, 0, 0.5);*/
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+}   
+.panel h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+.panel p{
+    font-size: 15px;
+}
+   
+.pengguna{
+    background-color: #7510F7;
+    height: 700px;
+    margin-top: 150px;
+    color: white;
+    font-family: Quicksand;
+}
+.pengguna h1{
+    margin-top: 80px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.pengguna p{
+    margin-top: 30px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.pengguna h2{
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.jumlahpengguna{
+    position: relative;
+    top: -30px;
+}
+.pengguna h5{
+    margin-left: 10px;
+}
+.judul-panel-2 h2{
+    font-family: Quicksand;
+    font-weight: bold;
+}
+.panel-2{
+    font-family: Quicksand;
+    box-shadow:  0px 0px 2px rgba(0, 0, 0, 0.5);
+    background-color:white;
+    border-radius: 15px;
+    margin-top: -50px;
+}   
+.panel-2 h4{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.cover{
+    background-color: white;
+}
+.cover h4{
+    font-family: Quicksand;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+}
+.cover p{
+    margin-top: 30px;
+    font-family: Quicksand;
+    text-align: left;
+    margin-left: 10px;
+}
+.maps{
+    margin-top: 70px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.btncard{
+    position: relative;
+    top: -430px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-family: Quicksand;
+    width: 160px;
+    height: 35px;
+    transition: 0.4s;
+}
+.card-deck{
+    margin-top: 100px;
+    font-family: Quicksand;
+}
+.card-deck h5{
+    font-weight: bold;
+}
+.packetbtn{
+    border-radius: 10px;
+    height: 35px;
+    width: 140px;
+    margin-top: 30px;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+.testimonial{
+    font-family: Quicksand;
+    margin-top: 100px;
+    text-align: center;
+}
+.testimonial h4{
+    font-weight: bold;
+    font-size: 22px;
+}
+.testimonial p{
+    font-size: 16px;
+    margin-top: 30px;
+}
+.figure img{
+    width: 50px;
+    margin: 25px 0px 20px;
+    opacity: 0.6;
+}
+.figure img.utama{
+    width: 80px;
+    opacity: 1;
+    margin-top: 10px;
+}
+.figure h5{
+    font-weight: bold;
+    font-size: 16px;
+}
+.box{
+    width: 325px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 2px 10px rgba(0,0,0,.3);
+ }
+ 
+ .box .heading{
+    background: #7800CF;
+    border-radius: 7px 7px 0px 0px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: "Quicksand";
+ }
+ 
+ .faqs{
+    padding: 0px 20px 20px;
+ }
+ 
+ ::-webkit-details-marker{
+    float: right;
+    margin-top: 3px;
+ }
+ 
+ details{
+    background: #f6f6f6;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-family: "Quicksand";
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+ }
+ 
+ details summary{
+    outline: none;
+ }
+ footer{
+    background: #7510F7;
+    color: #fff;
+    padding: 60px 0;
+}
+.container-footer{
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: 0px auto;
+}
+li{
+    list-style: none;
+    line-height: 2;
+    margin-left: -40px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.items{
+    flex-basis: 20%;
+}
+.items .logo{
+    text-transform: capitalize;
+    font-size: 1.4em;
+    color: white;
+    font-weight: bold;
+}
+.items p{
+    margin: 1.2em 0;
+}
+.social{
+    display: flex;
+}
+.social a{
+    height: 30px;
+    width: 30px;
+    background: #9c31e7;
+    border-radius: 5px;
+    margin:10px 5px;
+    text-align: center;
+}
+.social a i{
+    font-size: 1.3em;
+    line-height: 30px;
+}
+.items h3{
+    position: relative;
+    font-size: 1.3em;
+    margin-bottom: 1rem;
+    color: aliceblue;
+}
+.items h3::after{
+    /*content:"";*/
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background: #fff;
+    bottom: -4px;
+    left: 0;
+}
+hr{
+    opacity: .3;
+}
+footer .end{
+    text-align: center;
+    padding: 20px 0 0 0;
+    margin-bottom: -20px;
+}
+@media (max-width:640px){
+    .items{
+    flex-basis: 80%;
+    margin: auto;
+    }
+}
+/*Harga Paket*/
+.paket{
+    padding: 50px 0;
+}
+.title{
+    text-align: center;
+    padding: 2rem 0;
+    color: #fff;
+    font-size: 2.5rem;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.8rem;
+}
+.card{
+    padding: 2rem;
+    background: #7510F7;
+    text-align: center;
+    transition: all .4s ease-out;
+}
+.card h4{
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+.card .icon{
+    font-size: 3rem;
+    color: #fff;
+}
+.card .price{
+    padding: 5px 10px;
+    border: 1px solid #ababab;
+    font-size: 2.3rem;
+    border-radius: 60px;
+    margin-top: 2rem;
+    color: #ababab;
+    font-weight: 600;
+}
+.card .price span{
+    font-size: 1.2rem;
+}
+.isipaket{
+    margin: 2rem 0;
+}
+.isipaket li{
+    text-align: left;
+    list-style: none;
+    padding: 1rem 0;
+    color: #ababab;
+    border-bottom: 1px solid rgb(95, 95, 95);
+}
+.tombolpaket{
+    text-align: center;
+    padding: 15px 30px;
+    background: var(--primary);
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+}
+.card:hover{
+    background: #7800CF;
+    transform: translateY(-20px);
+}
+.card:hover .price{
+    color: #fff;
+}
+.card:hover .btn{
+    background: #fff;
+    color: var(--primary);
+}
+.card:hover li{
+    color: #fff;
+    border-bottom-color: #fff;
+}
+@media (max-width:768px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:576px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
+/*Akhir Harga Paket*/
+
+/*Dekstop Version */
+@media (min-width: 992px){
+    .navbar{
+        font-family: Quicksand;
+        font-weight: bold;
+    }
+    .nav-link{
+        margin-right: 20px;
+        font-size: 18px;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #7510F7;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .navbar-brand{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .btnnav{
+        border-radius: 20px;
+        width: 130px;
+        height: 40px;
+    }
+    .jumbotron{
+        min-height: 580px;
+        background-color: white;
+        transition: 0.4s;
+    }
+    .jumbotron h1{
+        margin-top: 80px;
+        font-weight: bold;   
+        font-size: 45px;
+        margin-bottom: 30px;
+        position: relative;
+        right: 570px;
+        font-family: Rubik;
+    }
+    .jumbotron p{
+        font-family: Quicksand;
+        font-size: 20px;
+        margin-bottom: 60px;
+        position: relative;
+        right: 570px;
+    }
+    .btnjum{
+        border-radius: 10px;
+        height: 40px;
+        width: 130px;
+        font-weight: bold;
+        font-family: Quicksand;
+        box-shadow: 4px 10px 18px rgba(0,0,0,.2);
+        color: #fff;
+        transform: translateY(-5px);
+        transition: 0.4s;
+        position: relative;
+        right: 570px;
+    }
+    .imgjum{
+        margin-top: 20px;
+        transition: 0.4s;
+        position: relative;
+        left: 530px;
+    }
+    .btnjum{
+        border-radius: 10px;
+        height: 60px;
+        width: 200px;
+        font-family: Quicksand;
+    }
+    .poin{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .penawaran{
+        font-size: 18px;
+        text-align: center;
+        font-family: Quicksand;
+    }
+    .panel{
+        font-family: Quicksand;
+    }   
+    .panel h4{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .judul-panel-2 h2{
+        font-family: Quicksand;
+        font-weight: bold;
+    }
+    .panel-2{
+        font-family: Quicksand;
+        box-shadow:  0px 0px 2px rgba(0, 0, 0, 0.5);
+        background-color:white;
+        border-radius: 10px;
+        margin-top: -250px;
+    }   
+    .panel-2 h4{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .pengguna{
+        background-color: #7510F7;
+        height: 700px;
+        margin-top: 150px;
+        color: white;
+        font-family: Quicksand;
+        
+    }
+    .pengguna h1{
+        margin-top: 100px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .pengguna p{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .pengguna h2{
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    .jumlahpengguna{
+        position: relative;
+        top: -120px;
+        left: 250px;
+    }
+    .cover h4{
+        font-family: Quicksand;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+    .cover p{
+        margin-top: 30px;
+        font-family: Quicksand;
+        text-align: left;
+        margin-left: 50px;
+    }
+    .maps{
+        margin-top: 80px;
+        border-radius: 10px;
+        margin-right: 50px;
+    }
+    .btncard{
+        position: relative;
+        top: -60px;
+        margin-left: -430px;
+        border-radius: 10px;
+        font-family: Quicksand;
+        font-weight: bold;
+        width: 200px;
+        height: 50px;
+    }
+    .packetbtn{
+        border-radius: 10px;
+        height: 50px;
+        width: 180px;
+        margin-top: 40px;
+        font-family: Quicksand;
+        font-weight: bold;
+    }
+    .testimonial h4{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .testimonial p{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .figure img{
+        width: 110px;
+        margin: 25px 15px 20px;
+        opacity: 0.7;
+        margin-top: 40px;
+    }
+    .figure img.utama{
+        width: 160px;
+        opacity: 1;
+    }
+    .figure h5{
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .box{
+        width: 800px;
+        margin: 100px auto;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 3px 2px 10px rgba(0,0,0,.3);
+     }
+     
+     .box .heading{
+        background: #7510F7;
+        border-radius: 7px 7px 0px 0px;
+        padding: 10px;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        font-family: "Quicksand";
+     }
+     
+     .faqs{
+        padding: 0px 20px 20px;
+        font-weight: bold;
+     }
+}
